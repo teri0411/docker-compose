@@ -5,7 +5,7 @@ app.use(cors())
 const port = 80
 
 app.get('/', (req, res) => {
-  res.send('hello from server')
+  res.send('Hello from server')
 })
 
 app.listen(port, () => {
